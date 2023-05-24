@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="normalize3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <main>
+        <div class="container" >
+            <article>
+                <section class="image">
+                    <img src="pictures/Logo.png" alt="aluraLogo">
+                </section>
+            
+                <section class="content">
+                    <textarea name="text" class="texto" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+                </section>
+                
+                <section class="instructions" >
+                    <img class="iconExclamation" src="icons/exclamation.png" alt="exclamationSymbol">
+                    <p>Solo letras minúsculas y sin acentos </p>
+                </section>
+        
+                <section class="buttons">
+                    <button class="button-encriptar" type="button" id="btn-e">Encriptar</button>
+                    <button class="button-desencriptar" type="button">Desencriptar</button>
+                </section>
+        
+            </article>
+        
+                <aside class="rightContent">
+                    <div class="rightContent1" >
+                     <img src="pictures/Muñeco.png" alt="personaBuscando" class="doll" id="imgDoll">
+                        <div class="rightContent-msj">
+                            <p class="rightContent-text1"><strong>Ningún mensaje fue encontrado.</strong></p>
+                            <p class="rightContent-text2" >Ingresa el texto que desees encriptar o desencriptar.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <textarea name="text" class="textoResult" id="miTextR" cols="30" rows="10" placeholder=""></textarea>
+                    </div>
+                    <div>
+                        <button class="buttons-copy" type="button" id="buttonCopy">Copiar</button>
+                    </div>
+                </aside>
+        </div>
+
+
+        <footer class="creditos">
+            <p class="creditos-author">Richard's</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
